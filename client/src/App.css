@@ -19,16 +19,16 @@ body {
 
 .product-card h2 {
 	margin-bottom: 10px;
-	color: #f3eeee;
+	color: #575555;
 }
 
 .product-card p {
-	color: #f6f2f2;
+	color: #353434;
 }
 
 .product-card h3 {
 	margin: 10px 0;
-	color: #fafafa;
+	color: #232222;
 }
 
 .product-card ul {
@@ -38,7 +38,7 @@ body {
 
 .product-card ul li {
 	margin-bottom: 2px;
-	color: #fffcfc;
+	color: #363434;
 }
 
 .product-card form {
@@ -48,7 +48,7 @@ body {
 .product-card label {
 	display: block;
 	margin-bottom: 5px;
-	color: #ffffff;
+	color: #444242;
 	gap: 10px;
 }
 
@@ -66,7 +66,7 @@ label {
 
 .product-card button {
 	background-color: #007BFF;
-	color: #fff;
+	color: #424040;
 	border: none;
 	padding: 10px;
 	cursor: pointer;
