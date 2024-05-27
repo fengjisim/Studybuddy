@@ -13,7 +13,7 @@ const App = () => {
 	useEffect(() => {
 		// Fetch products from the server
 		axios
-			.get("https://bookish-succotash-4jqxjx45rv5v37j64-5000.app.github.dev/api/products")
+			.get("https://studybuddy-1-1r8z.onrender.com/api/products")
 			.then((response) => setProducts(response.data))
 			.catch((error) => console.error(error));
 	}, []);
@@ -22,7 +22,7 @@ const App = () => {
 		// Submit a new review for a homework
 		axios
 			.post(
-`https://bookish-succotash-4jqxjx45rv5v37j64-5000.app.github.dev/api/products/${productId}/review`, review)
+`https://studybuddy-1-1r8z.onrender.com/api/products/${productId}/review`, review)
 			.then((response) => {
 				// Update the products in the state with the new review
 				const updatedProducts = products.map((product) =>
@@ -38,7 +38,7 @@ const App = () => {
 		console.log("i am called");
 
 		axios
-			.post("https://bookish-succotash-4jqxjx45rv5v37j64-5000.app.github.dev/api/products", newProduct)
+			.post("https://studybuddy-1-1r8z.onrender.com/api/products", newProduct)
 			.then((response) => {
 				// Update the review in the state with the new review
 				setProducts([...products, response.data]);
@@ -52,7 +52,7 @@ const App = () => {
 	const handleProductDelete = (productId) => {
 		// Send a DELETE request to the server
 		axios
-			.delete(`https://bookish-succotash-4jqxjx45rv5v37j64-5000.app.github.dev/api/products/${productId}`)
+			.delete(`https://studybuddy-1-1r8z.onrender.com/api/products/${productId}`)
 			.then((response) => {
 				// Update the review in the state after successful deletion
 				console.log(
@@ -78,7 +78,7 @@ const App = () => {
 						marginTop: "10px",
 						color: "white"
 					}}>
-				GFG
+				TECHUP LIVE!!!!
 			</h1>
 			<h2>Homework Review Platform</h2>
 
